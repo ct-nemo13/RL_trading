@@ -132,6 +132,8 @@ class SingleStockLongOnly(gym.Env):
                                self.obs_params_from_df_2 + 
                                self.fixed_obs_params)
         
+        print('\nAll Observation Parameters:', self.all_obs_params)
+        
         'Total Numbers of Observation Parameters'
         self.obs_param_numbers = len(self.all_obs_params)  
         
